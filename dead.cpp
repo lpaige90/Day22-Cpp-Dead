@@ -47,7 +47,6 @@ void dead() {
 void cursor_enter_callback(GLFWwindow* window, int entered) {
 	if (entered) {
 		std::cout << "No, don't kill me! ";
-		dead();
 	} else {
 		std::cout << "Good, I'm safe...";
 	}
